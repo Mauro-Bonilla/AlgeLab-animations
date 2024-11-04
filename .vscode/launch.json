@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Manim: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "args": [
+                "-pql"  // Preview, medium quality, low resolution
+            ],
+            "purpose": ["debug-in-terminal"],
+            "presentation": {
+                "hidden": false,
+                "group": "manim",
+                "order": 1
+            }
+        },
+        {
+            "name": "Manim: High Quality",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "args": [
+                "-pl"  // Preview, high quality, low resolution
+            ],
+            "purpose": ["debug-in-terminal"],
+            "presentation": {
+                "hidden": false,
+                "group": "manim",
+                "order": 2
+            }
+        }
+    ]
+}
