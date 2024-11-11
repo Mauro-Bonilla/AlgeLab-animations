@@ -1,4 +1,4 @@
-# practicum-II-animations
+# AlgeLab-animations
 
 Este repositorio contiene animaciones desarrolladas con **Manim** para complementar las lecciones del módulo de aprendizaje "AlgeLab".
 
@@ -11,7 +11,7 @@ Este repositorio contiene animaciones desarrolladas con **Manim** para complemen
 
 1. **Clona el repositorio**:
    ```bash
-   git clone https://github.com/tuusuario/practicum-II-animations.git
+   git clone https://github.com/tuusuario/AlgeLab-animations.git
    cd practicum-II-animations
 Crea un entorno virtual:
 
